@@ -104,6 +104,7 @@ func TestPlayMoveSavedGame(t *testing.T) {
 		Turn:  "r",
 		Black: bob,
 		Red:   carol,
+		Winner: "*",
 	}, game1)
 }
 
